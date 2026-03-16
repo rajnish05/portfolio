@@ -48,6 +48,11 @@ export const metadata: Metadata = {
       "Senior Software Engineer with 6+ years of experience in React Native and mobile architecture.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
